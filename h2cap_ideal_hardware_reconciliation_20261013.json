@@ -1,0 +1,60 @@
+{
+  "purpose": "offline ideal-statevector versus archived hardware-count reconciliation",
+  "job_id": "db6ojgamb58s738c4t8g",
+  "objective_recomputed": 3.067364916269692e-14,
+  "circuits_checked": 108,
+  "mapping_records_checked": 108,
+  "audit_entries_checked": 108,
+  "total_shots_recounted": 442368,
+  "runtime_connection": false,
+  "job_submitted": false,
+  "new_qpu_shots": 0,
+  "method_note": "Ideal grouped expectation is computed from the frozen 3-qubit optimized state and mapping coefficients. Hardware estimates are reconstructed from archived raw counts. Reported group SEs are shot-noise only. This does not independently prove IBM Runtime PUB-to-submitted-circuit ordering; that ordering is relied upon as the returned result sequence.",
+  "aggregates_by_triple": {
+    "43-44-45": {
+      "H": {
+        "groups": 27,
+        "ideal_sum": -1.4157748919442186,
+        "hardware_sum": -1.4159452161188444,
+        "hardware_minus_ideal": -0.00017032417462581328,
+        "hardware_SE": 0.0003887084273728094
+      },
+      "W": {
+        "groups": 27,
+        "ideal_sum": 105.88343280266963,
+        "hardware_sum": 91.31345446537395,
+        "hardware_minus_ideal": -14.56997833729568,
+        "hardware_SE": 3.317387255608228
+      },
+      "ideal_Er_eV": 0.2123917338494748,
+      "hardware_Er_eV": 0.2077569769467027,
+      "hardware_Er_SE_eV": 0.01057729515431209,
+      "ideal_Gamma_eV": 0.07516959929523373,
+      "hardware_Gamma_eV": 0.06482596569397087,
+      "hardware_Gamma_SE_eV": 0.0023551056488310073
+    },
+    "20-21-36": {
+      "H": {
+        "groups": 27,
+        "ideal_sum": -1.4157748919442186,
+        "hardware_sum": -1.4158207111177723,
+        "hardware_minus_ideal": -4.581917355372944e-05,
+        "hardware_SE": 0.0003698150666290459
+      },
+      "W": {
+        "groups": 27,
+        "ideal_sum": 105.88343280266963,
+        "hardware_sum": 103.60658839430322,
+        "hardware_minus_ideal": -2.276844408366415,
+        "hardware_SE": 3.3162312278551083
+      },
+      "ideal_Er_eV": 0.2123917338494748,
+      "hardware_Er_eV": 0.2111449306204323,
+      "hardware_Er_SE_eV": 0.010063180617628755,
+      "ideal_Gamma_eV": 0.07516959929523373,
+      "hardware_Gamma_eV": 0.07355320400746987,
+      "hardware_Gamma_SE_eV": 0.0023542849525173726
+    }
+  },
+  "per_group_csv": "/home/renjith/Documents/quantum_computing/project1/qDRIVE/h2cap_ideal_hardware_reconciliation_20261013.csv"
+}

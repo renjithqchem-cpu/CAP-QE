@@ -1,0 +1,2026 @@
+[
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XXX",
+      "IXX",
+      "XIX",
+      "XXI",
+      "IIX",
+      "IXI",
+      "XII",
+      "III"
+    ],
+    "coefficients": [
+      0.0003689202474511789,
+      -4.401499469523e-05,
+      -0.0009257808641317893,
+      -0.000696332112498993,
+      -0.009526116291604558,
+      0.0009716451983751041,
+      -7.174008540781129e-05,
+      -1.3895890099108195
+    ],
+    "group_index_within_triple": 0
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XXY",
+      "IXY",
+      "XIY",
+      "IIY"
+    ],
+    "coefficients": [
+      -0.000761766821673567,
+      -0.0005734061923600747,
+      0.0004911088574120689,
+      0.0008851519764802869
+    ],
+    "group_index_within_triple": 1
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XXZ",
+      "IXZ",
+      "XIZ",
+      "IIZ"
+    ],
+    "coefficients": [
+      -0.00026788727837960194,
+      -0.0010469125077746393,
+      -4.974093514240389e-05,
+      -0.0035648933841663233
+    ],
+    "group_index_within_triple": 2
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XYX",
+      "IYX",
+      "XYI",
+      "IYI"
+    ],
+    "coefficients": [
+      -0.0005030446988931209,
+      0.0006210708552687773,
+      -0.0003839131245575168,
+      0.0006313433041958963
+    ],
+    "group_index_within_triple": 3
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XYY",
+      "IYY"
+    ],
+    "coefficients": [
+      -0.0005132374440145099,
+      0.00011818257890671864
+    ],
+    "group_index_within_triple": 4
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XYZ",
+      "IYZ"
+    ],
+    "coefficients": [
+      -0.0008550658031104414,
+      -0.0007062819847448751
+    ],
+    "group_index_within_triple": 5
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XZX",
+      "IZX",
+      "XZI",
+      "IZI"
+    ],
+    "coefficients": [
+      -0.0006919053414157522,
+      0.00873433774583076,
+      0.00027603748001340665,
+      -0.019037385896003456
+    ],
+    "group_index_within_triple": 6
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XZY",
+      "IZY"
+    ],
+    "coefficients": [
+      0.0005802798160756413,
+      -0.0011835835135255044
+    ],
+    "group_index_within_triple": 7
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XZZ",
+      "IZZ"
+    ],
+    "coefficients": [
+      -0.00015455645946227959,
+      -0.0008528981130646596
+    ],
+    "group_index_within_triple": 8
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YXX",
+      "YIX",
+      "YXI",
+      "YII"
+    ],
+    "coefficients": [
+      0.0004919540049238343,
+      -0.0005322406084644277,
+      0.00044566569309662294,
+      0.00023670622497872266
+    ],
+    "group_index_within_triple": 9
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YXY",
+      "YIY"
+    ],
+    "coefficients": [
+      0.00034896870598497855,
+      -0.0007626994172164727
+    ],
+    "group_index_within_triple": 10
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YXZ",
+      "YIZ"
+    ],
+    "coefficients": [
+      0.0007933132345713482,
+      -0.000175347116475287
+    ],
+    "group_index_within_triple": 11
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YYX",
+      "YYI"
+    ],
+    "coefficients": [
+      0.0005331889854806287,
+      -0.0006624307183528443
+    ],
+    "group_index_within_triple": 12
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YYY"
+    ],
+    "coefficients": [
+      -0.0007728575156428596
+    ],
+    "group_index_within_triple": 13
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YYZ"
+    ],
+    "coefficients": [
+      -0.00030178867252562367
+    ],
+    "group_index_within_triple": 14
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YZX",
+      "YZI"
+    ],
+    "coefficients": [
+      -0.0005391480650232764,
+      0.00016278750489564505
+    ],
+    "group_index_within_triple": 15
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YZY"
+    ],
+    "coefficients": [
+      -0.0008549867883308039
+    ],
+    "group_index_within_triple": 16
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YZZ"
+    ],
+    "coefficients": [
+      -0.00022414661339857623
+    ],
+    "group_index_within_triple": 17
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZXX",
+      "ZIX",
+      "ZXI",
+      "ZII"
+    ],
+    "coefficients": [
+      0.0014059457282478375,
+      0.011759327722800878,
+      -0.0001330456460395619,
+      -0.025331273531515763
+    ],
+    "group_index_within_triple": 18
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZXY",
+      "ZIY"
+    ],
+    "coefficients": [
+      0.0001983869425386066,
+      -0.0003861915167657727
+    ],
+    "group_index_within_triple": 19
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZXZ",
+      "ZIZ"
+    ],
+    "coefficients": [
+      0.00020831295543924903,
+      0.003985765419444454
+    ],
+    "group_index_within_triple": 20
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZYX",
+      "ZYI"
+    ],
+    "coefficients": [
+      -0.0002460516054478342,
+      0.0003651506850884503
+    ],
+    "group_index_within_triple": 21
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZYY"
+    ],
+    "coefficients": [
+      0.0012437481546462106
+    ],
+    "group_index_within_triple": 22
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZYZ"
+    ],
+    "coefficients": [
+      -0.00029021200453946443
+    ],
+    "group_index_within_triple": 23
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZZX",
+      "ZZI"
+    ],
+    "coefficients": [
+      -0.010967549177027358,
+      0.018266939495172163
+    ],
+    "group_index_within_triple": 24
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZZY"
+    ],
+    "coefficients": [
+      0.0006846230538111714
+    ],
+    "group_index_within_triple": 25
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZZZ"
+    ],
+    "coefficients": [
+      0.000564671424916896
+    ],
+    "group_index_within_triple": 26
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XXX",
+      "IXX",
+      "XIX",
+      "XXI",
+      "IIX",
+      "IXI",
+      "XII",
+      "III"
+    ],
+    "coefficients": [
+      3.109748911888466,
+      2.5856649706127612,
+      -21.786115987450685,
+      -22.812041215349748,
+      16.790083507961,
+      -44.88488153376206,
+      39.61406294937383,
+      209.00486168849005
+    ],
+    "group_index_within_triple": 27
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XXY",
+      "IXY",
+      "XIY",
+      "IIY"
+    ],
+    "coefficients": [
+      -10.010542547652904,
+      -18.100919103661614,
+      1.2006663605672654,
+      44.90190857940975
+    ],
+    "group_index_within_triple": 28
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XXZ",
+      "IXZ",
+      "XIZ",
+      "IIZ"
+    ],
+    "coefficients": [
+      -24.377433296624563,
+      -3.6655441924549095,
+      17.96462744990764,
+      -30.396035269811605
+    ],
+    "group_index_within_triple": 29
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XYX",
+      "IYX",
+      "XYI",
+      "IYI"
+    ],
+    "coefficients": [
+      -25.270709812561655,
+      -43.55405300242157,
+      17.843752760921475,
+      -27.784693726997503
+    ],
+    "group_index_within_triple": 30
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XYY",
+      "IYY"
+    ],
+    "coefficients": [
+      21.188289328576303,
+      24.57407070229963
+    ],
+    "group_index_within_triple": 31
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XYZ",
+      "IYZ"
+    ],
+    "coefficients": [
+      10.028035825556906,
+      22.086388198037028
+    ],
+    "group_index_within_triple": 32
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XZX",
+      "IZX",
+      "XZI",
+      "IZI"
+    ],
+    "coefficients": [
+      -21.501786509315558,
+      -75.26588554195393,
+      38.378709918320084,
+      8.118072952773012
+    ],
+    "group_index_within_triple": 33
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XZY",
+      "IZY"
+    ],
+    "coefficients": [
+      -2.6718873783965225,
+      13.072898041424013
+    ],
+    "group_index_within_triple": 34
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XZZ",
+      "IZZ"
+    ],
+    "coefficients": [
+      22.482262739289666,
+      17.180020240543676
+    ],
+    "group_index_within_triple": 35
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YXX",
+      "YIX",
+      "YXI",
+      "YII"
+    ],
+    "coefficients": [
+      32.185006833117505,
+      8.066054325921334,
+      -11.879104417436645,
+      33.326073673608214
+    ],
+    "group_index_within_triple": 36
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YXY",
+      "YIY"
+    ],
+    "coefficients": [
+      -19.174813695797013,
+      -4.332679082301556
+    ],
+    "group_index_within_triple": 37
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YXZ",
+      "YIZ"
+    ],
+    "coefficients": [
+      -14.716373533492272,
+      -3.7884573281443394
+    ],
+    "group_index_within_triple": 38
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YYX",
+      "YYI"
+    ],
+    "coefficients": [
+      3.615777389064463,
+      -29.36389294821454
+    ],
+    "group_index_within_triple": 39
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YYY"
+    ],
+    "coefficients": [
+      -2.564737406727539
+    ],
+    "group_index_within_triple": 40
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YYZ"
+    ],
+    "coefficients": [
+      -22.833850811522908
+    ],
+    "group_index_within_triple": 41
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YZX",
+      "YZI"
+    ],
+    "coefficients": [
+      -16.10133716792145,
+      12.413266230972077
+    ],
+    "group_index_within_triple": 42
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YZY"
+    ],
+    "coefficients": [
+      -3.9004206173717986
+    ],
+    "group_index_within_triple": 43
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YZZ"
+    ],
+    "coefficients": [
+      5.127320963812629
+    ],
+    "group_index_within_triple": 44
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZXX",
+      "ZIX",
+      "ZXI",
+      "ZII"
+    ],
+    "coefficients": [
+      -40.926050175720256,
+      43.52163368351486,
+      -83.82648632531004,
+      30.163758139930472
+    ],
+    "group_index_within_triple": 45
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZXY",
+      "ZIY"
+    ],
+    "coefficients": [
+      -53.376198225153004,
+      36.51436959773589
+    ],
+    "group_index_within_triple": 46
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZXZ",
+      "ZIZ"
+    ],
+    "coefficients": [
+      34.56651067015364,
+      -11.542343899794723
+    ],
+    "group_index_within_triple": 47
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZYX",
+      "ZYI"
+    ],
+    "coefficients": [
+      -26.341082508605247,
+      -11.984603654187872
+    ],
+    "group_index_within_triple": 48
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZYY"
+    ],
+    "coefficients": [
+      -17.996222112966656
+    ],
+    "group_index_within_triple": 49
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZYZ"
+    ],
+    "coefficients": [
+      -19.43356094233235
+    ],
+    "group_index_within_triple": 50
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZZX",
+      "ZZI"
+    ],
+    "coefficients": [
+      27.954281166239923,
+      -65.30235458489841
+    ],
+    "group_index_within_triple": 51
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZZY"
+    ],
+    "coefficients": [
+      1.015613650409792
+    ],
+    "group_index_within_triple": 52
+  },
+  {
+    "triple_index": 0,
+    "triple": [
+      43,
+      44,
+      45
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZZZ"
+    ],
+    "coefficients": [
+      -2.8362551633397004
+    ],
+    "group_index_within_triple": 53
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XXX",
+      "IXX",
+      "XIX",
+      "XXI",
+      "IIX",
+      "IXI",
+      "XII",
+      "III"
+    ],
+    "coefficients": [
+      0.0003689202474511789,
+      -4.401499469523e-05,
+      -0.0009257808641317893,
+      -0.000696332112498993,
+      -0.009526116291604558,
+      0.0009716451983751041,
+      -7.174008540781129e-05,
+      -1.3895890099108195
+    ],
+    "group_index_within_triple": 0
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XXY",
+      "IXY",
+      "XIY",
+      "IIY"
+    ],
+    "coefficients": [
+      -0.000761766821673567,
+      -0.0005734061923600747,
+      0.0004911088574120689,
+      0.0008851519764802869
+    ],
+    "group_index_within_triple": 1
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XXZ",
+      "IXZ",
+      "XIZ",
+      "IIZ"
+    ],
+    "coefficients": [
+      -0.00026788727837960194,
+      -0.0010469125077746393,
+      -4.974093514240389e-05,
+      -0.0035648933841663233
+    ],
+    "group_index_within_triple": 2
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XYX",
+      "IYX",
+      "XYI",
+      "IYI"
+    ],
+    "coefficients": [
+      -0.0005030446988931209,
+      0.0006210708552687773,
+      -0.0003839131245575168,
+      0.0006313433041958963
+    ],
+    "group_index_within_triple": 3
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XYY",
+      "IYY"
+    ],
+    "coefficients": [
+      -0.0005132374440145099,
+      0.00011818257890671864
+    ],
+    "group_index_within_triple": 4
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XYZ",
+      "IYZ"
+    ],
+    "coefficients": [
+      -0.0008550658031104414,
+      -0.0007062819847448751
+    ],
+    "group_index_within_triple": 5
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XZX",
+      "IZX",
+      "XZI",
+      "IZI"
+    ],
+    "coefficients": [
+      -0.0006919053414157522,
+      0.00873433774583076,
+      0.00027603748001340665,
+      -0.019037385896003456
+    ],
+    "group_index_within_triple": 6
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XZY",
+      "IZY"
+    ],
+    "coefficients": [
+      0.0005802798160756413,
+      -0.0011835835135255044
+    ],
+    "group_index_within_triple": 7
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "XZZ",
+      "IZZ"
+    ],
+    "coefficients": [
+      -0.00015455645946227959,
+      -0.0008528981130646596
+    ],
+    "group_index_within_triple": 8
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YXX",
+      "YIX",
+      "YXI",
+      "YII"
+    ],
+    "coefficients": [
+      0.0004919540049238343,
+      -0.0005322406084644277,
+      0.00044566569309662294,
+      0.00023670622497872266
+    ],
+    "group_index_within_triple": 9
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YXY",
+      "YIY"
+    ],
+    "coefficients": [
+      0.00034896870598497855,
+      -0.0007626994172164727
+    ],
+    "group_index_within_triple": 10
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YXZ",
+      "YIZ"
+    ],
+    "coefficients": [
+      0.0007933132345713482,
+      -0.000175347116475287
+    ],
+    "group_index_within_triple": 11
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YYX",
+      "YYI"
+    ],
+    "coefficients": [
+      0.0005331889854806287,
+      -0.0006624307183528443
+    ],
+    "group_index_within_triple": 12
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YYY"
+    ],
+    "coefficients": [
+      -0.0007728575156428596
+    ],
+    "group_index_within_triple": 13
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YYZ"
+    ],
+    "coefficients": [
+      -0.00030178867252562367
+    ],
+    "group_index_within_triple": 14
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YZX",
+      "YZI"
+    ],
+    "coefficients": [
+      -0.0005391480650232764,
+      0.00016278750489564505
+    ],
+    "group_index_within_triple": 15
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YZY"
+    ],
+    "coefficients": [
+      -0.0008549867883308039
+    ],
+    "group_index_within_triple": 16
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "YZZ"
+    ],
+    "coefficients": [
+      -0.00022414661339857623
+    ],
+    "group_index_within_triple": 17
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZXX",
+      "ZIX",
+      "ZXI",
+      "ZII"
+    ],
+    "coefficients": [
+      0.0014059457282478375,
+      0.011759327722800878,
+      -0.0001330456460395619,
+      -0.025331273531515763
+    ],
+    "group_index_within_triple": 18
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZXY",
+      "ZIY"
+    ],
+    "coefficients": [
+      0.0001983869425386066,
+      -0.0003861915167657727
+    ],
+    "group_index_within_triple": 19
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZXZ",
+      "ZIZ"
+    ],
+    "coefficients": [
+      0.00020831295543924903,
+      0.003985765419444454
+    ],
+    "group_index_within_triple": 20
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZYX",
+      "ZYI"
+    ],
+    "coefficients": [
+      -0.0002460516054478342,
+      0.0003651506850884503
+    ],
+    "group_index_within_triple": 21
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZYY"
+    ],
+    "coefficients": [
+      0.0012437481546462106
+    ],
+    "group_index_within_triple": 22
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZYZ"
+    ],
+    "coefficients": [
+      -0.00029021200453946443
+    ],
+    "group_index_within_triple": 23
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZZX",
+      "ZZI"
+    ],
+    "coefficients": [
+      -0.010967549177027358,
+      0.018266939495172163
+    ],
+    "group_index_within_triple": 24
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZZY"
+    ],
+    "coefficients": [
+      0.0006846230538111714
+    ],
+    "group_index_within_triple": 25
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "H",
+    "pauli_labels": [
+      "ZZZ"
+    ],
+    "coefficients": [
+      0.000564671424916896
+    ],
+    "group_index_within_triple": 26
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XXX",
+      "IXX",
+      "XIX",
+      "XXI",
+      "IIX",
+      "IXI",
+      "XII",
+      "III"
+    ],
+    "coefficients": [
+      3.109748911888466,
+      2.5856649706127612,
+      -21.786115987450685,
+      -22.812041215349748,
+      16.790083507961,
+      -44.88488153376206,
+      39.61406294937383,
+      209.00486168849005
+    ],
+    "group_index_within_triple": 27
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XXY",
+      "IXY",
+      "XIY",
+      "IIY"
+    ],
+    "coefficients": [
+      -10.010542547652904,
+      -18.100919103661614,
+      1.2006663605672654,
+      44.90190857940975
+    ],
+    "group_index_within_triple": 28
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XXZ",
+      "IXZ",
+      "XIZ",
+      "IIZ"
+    ],
+    "coefficients": [
+      -24.377433296624563,
+      -3.6655441924549095,
+      17.96462744990764,
+      -30.396035269811605
+    ],
+    "group_index_within_triple": 29
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XYX",
+      "IYX",
+      "XYI",
+      "IYI"
+    ],
+    "coefficients": [
+      -25.270709812561655,
+      -43.55405300242157,
+      17.843752760921475,
+      -27.784693726997503
+    ],
+    "group_index_within_triple": 30
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XYY",
+      "IYY"
+    ],
+    "coefficients": [
+      21.188289328576303,
+      24.57407070229963
+    ],
+    "group_index_within_triple": 31
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XYZ",
+      "IYZ"
+    ],
+    "coefficients": [
+      10.028035825556906,
+      22.086388198037028
+    ],
+    "group_index_within_triple": 32
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XZX",
+      "IZX",
+      "XZI",
+      "IZI"
+    ],
+    "coefficients": [
+      -21.501786509315558,
+      -75.26588554195393,
+      38.378709918320084,
+      8.118072952773012
+    ],
+    "group_index_within_triple": 33
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XZY",
+      "IZY"
+    ],
+    "coefficients": [
+      -2.6718873783965225,
+      13.072898041424013
+    ],
+    "group_index_within_triple": 34
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "XZZ",
+      "IZZ"
+    ],
+    "coefficients": [
+      22.482262739289666,
+      17.180020240543676
+    ],
+    "group_index_within_triple": 35
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YXX",
+      "YIX",
+      "YXI",
+      "YII"
+    ],
+    "coefficients": [
+      32.185006833117505,
+      8.066054325921334,
+      -11.879104417436645,
+      33.326073673608214
+    ],
+    "group_index_within_triple": 36
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YXY",
+      "YIY"
+    ],
+    "coefficients": [
+      -19.174813695797013,
+      -4.332679082301556
+    ],
+    "group_index_within_triple": 37
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YXZ",
+      "YIZ"
+    ],
+    "coefficients": [
+      -14.716373533492272,
+      -3.7884573281443394
+    ],
+    "group_index_within_triple": 38
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YYX",
+      "YYI"
+    ],
+    "coefficients": [
+      3.615777389064463,
+      -29.36389294821454
+    ],
+    "group_index_within_triple": 39
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YYY"
+    ],
+    "coefficients": [
+      -2.564737406727539
+    ],
+    "group_index_within_triple": 40
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YYZ"
+    ],
+    "coefficients": [
+      -22.833850811522908
+    ],
+    "group_index_within_triple": 41
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YZX",
+      "YZI"
+    ],
+    "coefficients": [
+      -16.10133716792145,
+      12.413266230972077
+    ],
+    "group_index_within_triple": 42
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YZY"
+    ],
+    "coefficients": [
+      -3.9004206173717986
+    ],
+    "group_index_within_triple": 43
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "YZZ"
+    ],
+    "coefficients": [
+      5.127320963812629
+    ],
+    "group_index_within_triple": 44
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZXX",
+      "ZIX",
+      "ZXI",
+      "ZII"
+    ],
+    "coefficients": [
+      -40.926050175720256,
+      43.52163368351486,
+      -83.82648632531004,
+      30.163758139930472
+    ],
+    "group_index_within_triple": 45
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZXY",
+      "ZIY"
+    ],
+    "coefficients": [
+      -53.376198225153004,
+      36.51436959773589
+    ],
+    "group_index_within_triple": 46
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZXZ",
+      "ZIZ"
+    ],
+    "coefficients": [
+      34.56651067015364,
+      -11.542343899794723
+    ],
+    "group_index_within_triple": 47
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZYX",
+      "ZYI"
+    ],
+    "coefficients": [
+      -26.341082508605247,
+      -11.984603654187872
+    ],
+    "group_index_within_triple": 48
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZYY"
+    ],
+    "coefficients": [
+      -17.996222112966656
+    ],
+    "group_index_within_triple": 49
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZYZ"
+    ],
+    "coefficients": [
+      -19.43356094233235
+    ],
+    "group_index_within_triple": 50
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZZX",
+      "ZZI"
+    ],
+    "coefficients": [
+      27.954281166239923,
+      -65.30235458489841
+    ],
+    "group_index_within_triple": 51
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZZY"
+    ],
+    "coefficients": [
+      1.015613650409792
+    ],
+    "group_index_within_triple": 52
+  },
+  {
+    "triple_index": 1,
+    "triple": [
+      20,
+      21,
+      36
+    ],
+    "observable": "W",
+    "pauli_labels": [
+      "ZZZ"
+    ],
+    "coefficients": [
+      -2.8362551633397004
+    ],
+    "group_index_within_triple": 53
+  }
+]

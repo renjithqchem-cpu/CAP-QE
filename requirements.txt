@@ -1,0 +1,18 @@
+# CAP-QE: Resonance Energy and Width of H2- from Three Qubit Measurements on IBM Quantum Hardware
+# Package versions used for the calculations reported in the manuscript (Section 2.3) and SI (Section S1).
+# Python 3.10.21 was used; Python 3.10 is required.
+
+# Classical electronic structure and numerics
+numpy==2.2.6
+scipy==1.15.2
+pyscf==2.13.1
+
+# Quantum circuits, simulation, and IBM hardware execution
+qiskit==1.3.3
+qiskit-aer==0.16.4
+qiskit-ibm-runtime==0.40.1
+qiskit-algorithms==0.3.1
+qiskit-optimization==0.6.1
+
+# Figures (version recorded in the figure files)
+matplotlib==3.11.2

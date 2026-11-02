@@ -1,0 +1,2914 @@
+{
+  "audit_type": "independent raw-count recomputation",
+  "job_id": "db6ojgamb58s738c4t8g",
+  "job_status": "DONE",
+  "backend": "<IBMBackend('ibm_kingston')>",
+  "qpy_archive": "/home/renjith/Documents/quantum_computing/project1/qDRIVE/h2cap_ibm_hardware_20261013_070039_circuits.qpy",
+  "mapping_file": "/home/renjith/Documents/quantum_computing/project1/qDRIVE/h2cap_ibm_hardware_20261013_070039_groups.json",
+  "qpy_circuits": 108,
+  "mapping_records": 108,
+  "result_pubs": 108,
+  "shots_per_pub_expected": 4096,
+  "total_shots_recomputed": 442368,
+  "mitigation": "none; uses raw SamplerV2 counts",
+  "reference_constants": {
+    "ETA": 1.30446839e-05,
+    "THRESHOLD_HA": -1.423580144198899,
+    "HARTREE_TO_EV": 27.211386245988,
+    "reference_energy_eV": 0.21239112537024876,
+    "reference_width_eV": 0.07516884295821497
+  },
+  "results_by_triple": [
+    {
+      "triple_index": 0,
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "groups_H": 27,
+      "groups_W": 27,
+      "H_Ha": -1.4159452161188444,
+      "H_SE_Ha": 0.0003887084273728094,
+      "W": 91.31345446537395,
+      "W_SE": 3.317387255608228,
+      "energy_eV": 0.2077569769467027,
+      "energy_SE_eV": 0.01057729515431209,
+      "width_eV": 0.06482596569397087,
+      "width_SE_eV": 0.0023551056488310073,
+      "reference_energy_eV": 0.21239112537024876,
+      "reference_width_eV": 0.07516884295821497,
+      "energy_delta_from_reference_eV": -0.004634148423546064,
+      "width_delta_from_reference_eV": -0.0103428772642441
+    },
+    {
+      "triple_index": 1,
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "groups_H": 27,
+      "groups_W": 27,
+      "H_Ha": -1.4158207111177723,
+      "H_SE_Ha": 0.0003698150666290459,
+      "W": 103.60658839430322,
+      "W_SE": 3.3162312278551087,
+      "energy_eV": 0.2111449306204323,
+      "energy_SE_eV": 0.010063180617628755,
+      "width_eV": 0.07355320400746987,
+      "width_SE_eV": 0.0023542849525173726,
+      "reference_energy_eV": 0.21239112537024876,
+      "reference_width_eV": 0.07516884295821497,
+      "energy_delta_from_reference_eV": -0.001246194749816465,
+      "width_delta_from_reference_eV": -0.0016156389507450963
+    }
+  ],
+  "per_circuit_audit": [
+    {
+      "index": 0,
+      "circuit_name": "H_t0_g00",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 0,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 586,
+        "000": 377,
+        "001": 303,
+        "100": 460,
+        "110": 752,
+        "101": 382,
+        "011": 543,
+        "111": 693
+      },
+      "group_estimate": -1.3904420386610004,
+      "variance_of_group_mean": 2.197877689120744e-08
+    },
+    {
+      "index": 1,
+      "circuit_name": "H_t0_g01",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 1,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 110,
+        "111": 1368,
+        "001": 656,
+        "011": 1018,
+        "101": 768,
+        "010": 98,
+        "100": 50,
+        "000": 28
+      },
+      "group_estimate": -0.000780575379495289,
+      "variance_of_group_mean": 3.607050620154819e-10
+    },
+    {
+      "index": 2,
+      "circuit_name": "H_t0_g02",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 2,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 1102,
+        "101": 250,
+        "010": 822,
+        "011": 257,
+        "000": 433,
+        "001": 233,
+        "111": 360,
+        "100": 639
+      },
+      "group_estimate": -0.0014614098745591997,
+      "variance_of_group_mean": 2.413430743855874e-09
+    },
+    {
+      "index": 3,
+      "circuit_name": "H_t0_g03",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 3,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 620,
+        "100": 556,
+        "000": 440,
+        "010": 527,
+        "011": 402,
+        "101": 575,
+        "111": 525,
+        "001": 451
+      },
+      "group_estimate": -4.097086603280078e-05,
+      "variance_of_group_mean": 3.298160127442114e-10
+    },
+    {
+      "index": 4,
+      "circuit_name": "H_t0_g04",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 4,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 994,
+        "011": 864,
+        "111": 1080,
+        "001": 874,
+        "110": 79,
+        "000": 59,
+        "010": 71,
+        "100": 75
+      },
+      "group_estimate": 1.4762609597634797e-05,
+      "variance_of_group_mean": 7.028669117589659e-11
+    },
+    {
+      "index": 5,
+      "circuit_name": "H_t0_g05",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 5,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 329,
+        "110": 839,
+        "010": 678,
+        "100": 826,
+        "111": 303,
+        "000": 655,
+        "001": 244,
+        "011": 222
+      },
+      "group_estimate": 1.5736836312800817e-05,
+      "variance_of_group_mean": 2.6443786843972363e-10
+    },
+    {
+      "index": 6,
+      "circuit_name": "H_t0_g06",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 6,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 883,
+        "101": 1103,
+        "000": 840,
+        "100": 1132,
+        "110": 43,
+        "011": 31,
+        "111": 30,
+        "010": 34
+      },
+      "group_estimate": -0.01784205786471365,
+      "variance_of_group_mean": 3.003878986000073e-08
+    },
+    {
+      "index": 7,
+      "circuit_name": "H_t0_g07",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 7,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1680,
+        "101": 2013,
+        "100": 149,
+        "000": 126,
+        "111": 57,
+        "011": 46,
+        "110": 12,
+        "010": 13
+      },
+      "group_estimate": 0.0010073467579017887,
+      "variance_of_group_mean": 2.064926738670437e-10
+    },
+    {
+      "index": 8,
+      "circuit_name": "H_t0_g08",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 8,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 1624,
+        "101": 618,
+        "001": 470,
+        "000": 1253,
+        "011": 16,
+        "110": 60,
+        "010": 35,
+        "111": 20
+      },
+      "group_estimate": -0.0003526106764625197,
+      "variance_of_group_mean": 1.444972426461856e-10
+    },
+    {
+      "index": 9,
+      "circuit_name": "H_t0_g09",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 9,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 602,
+        "101": 389,
+        "001": 356,
+        "010": 653,
+        "100": 420,
+        "111": 644,
+        "110": 656,
+        "000": 376
+      },
+      "group_estimate": -2.0175756569748964e-05,
+      "variance_of_group_mean": 2.107076949410714e-10
+    },
+    {
+      "index": 10,
+      "circuit_name": "H_t0_g10",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 10,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 1151,
+        "101": 738,
+        "010": 91,
+        "001": 689,
+        "111": 1255,
+        "110": 95,
+        "100": 39,
+        "000": 38
+      },
+      "group_estimate": -3.198874181134201e-05,
+      "variance_of_group_mean": 2.060715111510544e-10
+    },
+    {
+      "index": 11,
+      "circuit_name": "H_t0_g11",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 11,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 911,
+        "011": 302,
+        "110": 1047,
+        "100": 562,
+        "000": 517,
+        "001": 229,
+        "101": 209,
+        "111": 319
+      },
+      "group_estimate": 1.833564064900041e-05,
+      "variance_of_group_mean": 1.7872770477454562e-10
+    },
+    {
+      "index": 12,
+      "circuit_name": "H_t0_g12",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 12,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 515,
+        "110": 595,
+        "011": 455,
+        "010": 556,
+        "000": 493,
+        "111": 448,
+        "101": 525,
+        "001": 509
+      },
+      "group_estimate": 6.177281183921448e-06,
+      "variance_of_group_mean": 1.6722353632607867e-10
+    },
+    {
+      "index": 13,
+      "circuit_name": "H_t0_g13",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 13,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 78,
+        "001": 924,
+        "111": 984,
+        "011": 915,
+        "010": 75,
+        "101": 989,
+        "000": 66,
+        "100": 65
+      },
+      "group_estimate": -1.0164395367051604e-20,
+      "variance_of_group_mean": 1.4586294004533652e-10
+    },
+    {
+      "index": 14,
+      "circuit_name": "H_t0_g14",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 14,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "111": 273,
+        "110": 808,
+        "010": 698,
+        "000": 704,
+        "011": 286,
+        "101": 293,
+        "100": 780,
+        "001": 254
+      },
+      "group_estimate": -6.336383261036035e-06,
+      "variance_of_group_mean": 2.223107524101279e-11
+    },
+    {
+      "index": 15,
+      "circuit_name": "H_t0_g15",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 15,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 1022,
+        "101": 999,
+        "000": 1002,
+        "001": 921,
+        "010": 29,
+        "110": 45,
+        "111": 55,
+        "011": 23
+      },
+      "group_estimate": -7.515525872988237e-06,
+      "variance_of_group_mean": 7.639522531692773e-11
+    },
+    {
+      "index": 16,
+      "circuit_name": "H_t0_g16",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 16,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1809,
+        "000": 142,
+        "101": 1880,
+        "100": 133,
+        "111": 69,
+        "110": 12,
+        "011": 41,
+        "010": 10
+      },
+      "group_estimate": -1.1271798478970556e-05,
+      "variance_of_group_mean": 1.7847994011703846e-10
+    },
+    {
+      "index": 17,
+      "circuit_name": "H_t0_g17",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 17,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 1403,
+        "101": 554,
+        "100": 1521,
+        "001": 489,
+        "110": 67,
+        "010": 41,
+        "111": 11,
+        "011": 10
+      },
+      "group_estimate": 1.5322522400293324e-06,
+      "variance_of_group_mean": 1.2268463126037539e-11
+    },
+    {
+      "index": 18,
+      "circuit_name": "H_t0_g18",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 18,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 762,
+        "001": 757,
+        "010": 1270,
+        "011": 1196,
+        "110": 40,
+        "111": 30,
+        "100": 27,
+        "101": 14
+      },
+      "group_estimate": -0.023792461791500182,
+      "variance_of_group_mean": 4.7066254792037964e-08
+    },
+    {
+      "index": 19,
+      "circuit_name": "H_t0_g19",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 19,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1437,
+        "011": 2297,
+        "010": 184,
+        "111": 54,
+        "000": 68,
+        "110": 6,
+        "101": 43,
+        "100": 7
+      },
+      "group_estimate": 0.0003558344765401259,
+      "variance_of_group_mean": 2.4119461554116287e-11
+    },
+    {
+      "index": 20,
+      "circuit_name": "H_t0_g20",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 20,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 1848,
+        "011": 641,
+        "000": 1004,
+        "001": 492,
+        "110": 47,
+        "111": 19,
+        "100": 27,
+        "101": 18
+      },
+      "group_estimate": 0.0016023529974679297,
+      "variance_of_group_mean": 3.1626608020282603e-09
+    },
+    {
+      "index": 21,
+      "circuit_name": "H_t0_g21",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 21,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1023,
+        "010": 1090,
+        "100": 31,
+        "011": 917,
+        "000": 940,
+        "111": 31,
+        "110": 25,
+        "101": 39
+      },
+      "group_estimate": 1.0087492199370081e-05,
+      "variance_of_group_mean": 4.650562447216728e-11
+    },
+    {
+      "index": 22,
+      "circuit_name": "H_t0_g22",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 22,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 1838,
+        "001": 1897,
+        "000": 125,
+        "101": 61,
+        "010": 111,
+        "111": 49,
+        "110": 9,
+        "100": 6
+      },
+      "group_estimate": -9.109483554537697e-06,
+      "variance_of_group_mean": 3.777354064701401e-10
+    },
+    {
+      "index": 23,
+      "circuit_name": "H_t0_g23",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 23,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 1431,
+        "010": 1492,
+        "011": 520,
+        "001": 536,
+        "101": 22,
+        "110": 37,
+        "100": 41,
+        "111": 17
+      },
+      "group_estimate": 5.384793052978344e-06,
+      "variance_of_group_mean": 2.0560198188666843e-11
+    },
+    {
+      "index": 24,
+      "circuit_name": "H_t0_g24",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 24,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 2006,
+        "001": 1866,
+        "010": 64,
+        "101": 47,
+        "011": 42,
+        "100": 52,
+        "110": 10,
+        "111": 9
+      },
+      "group_estimate": 0.01613321249341393,
+      "variance_of_group_mean": 4.3285283439404735e-08
+    },
+    {
+      "index": 25,
+      "circuit_name": "H_t0_g25",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 25,
+      "shots": 4096,
+      "distinct_bitstrings": 7,
+      "raw_counts": {
+        "001": 3657,
+        "000": 238,
+        "101": 97,
+        "011": 73,
+        "010": 15,
+        "111": 13,
+        "100": 3
+      },
+      "group_estimate": -0.0005482333048097271,
+      "variance_of_group_mean": 4.106201936682271e-11
+    },
+    {
+      "index": 26,
+      "circuit_name": "H_t0_g26",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "H",
+      "group_index_within_triple": 26,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 2817,
+        "001": 1026,
+        "100": 77,
+        "010": 104,
+        "111": 4,
+        "011": 29,
+        "101": 29,
+        "110": 10
+      },
+      "group_estimate": 0.0002307763587184775,
+      "variance_of_group_mean": 6.485863012803869e-11
+    },
+    {
+      "index": 27,
+      "circuit_name": "W_t0_g27",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 27,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 500,
+        "010": 598,
+        "110": 741,
+        "000": 355,
+        "111": 704,
+        "100": 449,
+        "101": 424,
+        "001": 325
+      },
+      "group_estimate": 214.10803977765624,
+      "variance_of_group_mean": 1.1950859048744142
+    },
+    {
+      "index": 28,
+      "circuit_name": "W_t0_g28",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 28,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "111": 1332,
+        "001": 657,
+        "011": 947,
+        "101": 864,
+        "000": 31,
+        "010": 86,
+        "100": 55,
+        "110": 124
+      },
+      "group_estimate": -40.657760797133186,
+      "variance_of_group_mean": 0.25112865564942277
+    },
+    {
+      "index": 29,
+      "circuit_name": "W_t0_g29",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 29,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 503,
+        "100": 596,
+        "011": 282,
+        "101": 275,
+        "110": 1085,
+        "111": 325,
+        "010": 833,
+        "001": 197
+      },
+      "group_estimate": -15.906636409565479,
+      "variance_of_group_mean": 0.4635435967839716
+    },
+    {
+      "index": 30,
+      "circuit_name": "W_t0_g30",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 30,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 543,
+        "011": 401,
+        "001": 488,
+        "101": 605,
+        "010": 475,
+        "000": 429,
+        "110": 627,
+        "111": 528
+      },
+      "group_estimate": 2.931917054142218,
+      "variance_of_group_mean": 0.851481256822259
+    },
+    {
+      "index": 31,
+      "circuit_name": "W_t0_g31",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 31,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 849,
+        "000": 57,
+        "111": 1109,
+        "011": 812,
+        "101": 1023,
+        "010": 76,
+        "110": 78,
+        "100": 92
+      },
+      "group_estimate": -0.5429965879777157,
+      "variance_of_group_mean": 0.22548963084252469
+    },
+    {
+      "index": 32,
+      "circuit_name": "W_t0_g32",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 32,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 673,
+        "110": 832,
+        "100": 822,
+        "111": 341,
+        "011": 244,
+        "010": 615,
+        "101": 304,
+        "001": 265
+      },
+      "group_estimate": 0.3695823249340666,
+      "variance_of_group_mean": 0.1303892899736384
+    },
+    {
+      "index": 33,
+      "circuit_name": "W_t0_g33",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 33,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 1188,
+        "101": 1072,
+        "110": 39,
+        "000": 899,
+        "010": 27,
+        "001": 815,
+        "011": 30,
+        "111": 26
+      },
+      "group_estimate": -0.8138228981437334,
+      "variance_of_group_mean": 1.725986298368762
+    },
+    {
+      "index": 34,
+      "circuit_name": "W_t0_g34",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 34,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1609,
+        "101": 2099,
+        "100": 149,
+        "111": 72,
+        "011": 29,
+        "000": 121,
+        "110": 6,
+        "010": 11
+      },
+      "group_estimate": -10.974770850974684,
+      "variance_of_group_mean": 0.0163801739618631
+    },
+    {
+      "index": 35,
+      "circuit_name": "W_t0_g35",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 35,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 484,
+        "000": 1265,
+        "100": 1552,
+        "010": 45,
+        "101": 655,
+        "110": 67,
+        "011": 19,
+        "111": 9
+      },
+      "group_estimate": 6.224717332355052,
+      "variance_of_group_mean": 0.16439993900736652
+    },
+    {
+      "index": 36,
+      "circuit_name": "W_t0_g36",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 36,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 687,
+        "011": 600,
+        "010": 638,
+        "100": 430,
+        "001": 338,
+        "000": 374,
+        "101": 374,
+        "111": 655
+      },
+      "group_estimate": -1.8613756423975598,
+      "variance_of_group_mean": 0.5913370818757097
+    },
+    {
+      "index": 37,
+      "circuit_name": "W_t0_g37",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 37,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 745,
+        "011": 1110,
+        "111": 1241,
+        "001": 704,
+        "110": 99,
+        "010": 101,
+        "100": 46,
+        "000": 50
+      },
+      "group_estimate": 0.22367351771983895,
+      "variance_of_group_mean": 0.08439232767979554
+    },
+    {
+      "index": 38,
+      "circuit_name": "W_t0_g38",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 38,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 884,
+        "100": 528,
+        "101": 235,
+        "000": 559,
+        "110": 1029,
+        "011": 320,
+        "111": 346,
+        "001": 195
+      },
+      "group_estimate": -0.6382482958038586,
+      "variance_of_group_mean": 0.04923224760654459
+    },
+    {
+      "index": 39,
+      "circuit_name": "W_t0_g39",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 39,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 584,
+        "101": 565,
+        "011": 430,
+        "001": 524,
+        "100": 491,
+        "111": 471,
+        "010": 574,
+        "000": 457
+      },
+      "group_estimate": 0.1508678646043955,
+      "variance_of_group_mean": 0.21227730696179778
+    },
+    {
+      "index": 40,
+      "circuit_name": "W_t0_g40",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 40,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "111": 1019,
+        "011": 904,
+        "000": 77,
+        "001": 918,
+        "101": 968,
+        "010": 72,
+        "110": 64,
+        "100": 74
+      },
+      "group_estimate": 0.04383096154075371,
+      "variance_of_group_mean": 0.001605850259408526
+    },
+    {
+      "index": 41,
+      "circuit_name": "W_t0_g41",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 41,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "111": 294,
+        "010": 705,
+        "100": 719,
+        "000": 732,
+        "011": 300,
+        "101": 312,
+        "001": 263,
+        "110": 771
+      },
+      "group_estimate": -0.7470058615097823,
+      "variance_of_group_mean": 0.12718601346172292
+    },
+    {
+      "index": 42,
+      "circuit_name": "W_t0_g42",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 42,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 991,
+        "100": 1059,
+        "101": 964,
+        "001": 962,
+        "110": 42,
+        "111": 25,
+        "010": 31,
+        "011": 22
+      },
+      "group_estimate": 0.058284825880127705,
+      "variance_of_group_mean": 0.09736261549062597
+    },
+    {
+      "index": 43,
+      "circuit_name": "W_t0_g43",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 43,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1784,
+        "101": 1904,
+        "100": 146,
+        "000": 135,
+        "110": 16,
+        "111": 60,
+        "011": 38,
+        "010": 13
+      },
+      "group_estimate": -0.08570260145592344,
+      "variance_of_group_mean": 0.0037132932982961385
+    },
+    {
+      "index": 44,
+      "circuit_name": "W_t0_g44",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 44,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 1476,
+        "000": 1361,
+        "001": 525,
+        "110": 62,
+        "101": 613,
+        "011": 10,
+        "010": 32,
+        "111": 17
+      },
+      "group_estimate": -0.005007149378723305,
+      "variance_of_group_mean": 0.006419876726351054
+    },
+    {
+      "index": 45,
+      "circuit_name": "W_t0_g45",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 45,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 1181,
+        "001": 723,
+        "010": 1280,
+        "000": 781,
+        "111": 42,
+        "100": 31,
+        "110": 36,
+        "101": 22
+      },
+      "group_estimate": 49.50398543964453,
+      "variance_of_group_mean": 2.8215374076474733
+    },
+    {
+      "index": 46,
+      "circuit_name": "W_t0_g46",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 46,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 2348,
+        "000": 73,
+        "001": 1392,
+        "101": 37,
+        "010": 180,
+        "111": 54,
+        "100": 6,
+        "110": 6
+      },
+      "group_estimate": -41.223136843850405,
+      "variance_of_group_mean": 0.8573291204018247
+    },
+    {
+      "index": 47,
+      "circuit_name": "W_t0_g47",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 47,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 998,
+        "011": 627,
+        "010": 1890,
+        "001": 460,
+        "101": 21,
+        "110": 44,
+        "100": 28,
+        "111": 28
+      },
+      "group_estimate": -11.052712181070566,
+      "variance_of_group_mean": 0.3459573602336339
+    },
+    {
+      "index": 48,
+      "circuit_name": "W_t0_g48",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 48,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 946,
+        "001": 1001,
+        "000": 962,
+        "010": 1084,
+        "110": 26,
+        "100": 29,
+        "111": 27,
+        "101": 21
+      },
+      "group_estimate": 1.3834121046065917,
+      "variance_of_group_mean": 0.2080363405185286
+    },
+    {
+      "index": 49,
+      "circuit_name": "W_t0_g49",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 49,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1758,
+        "011": 1924,
+        "010": 141,
+        "000": 135,
+        "111": 65,
+        "100": 10,
+        "101": 51,
+        "110": 12
+      },
+      "group_estimate": -0.6502541193161787,
+      "variance_of_group_mean": 0.07898441512076736
+    },
+    {
+      "index": 50,
+      "circuit_name": "W_t0_g50",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 50,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 1458,
+        "001": 543,
+        "010": 1487,
+        "011": 499,
+        "100": 41,
+        "110": 36,
+        "101": 13,
+        "111": 19
+      },
+      "group_estimate": 0.3985398240126761,
+      "variance_of_group_mean": 0.09218668056361938
+    },
+    {
+      "index": 51,
+      "circuit_name": "W_t0_g51",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 51,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 64,
+        "000": 2000,
+        "001": 1850,
+        "101": 42,
+        "100": 66,
+        "111": 8,
+        "110": 5,
+        "010": 61
+      },
+      "group_estimate": -57.01301457915894,
+      "variance_of_group_mean": 0.4018581394274089
+    },
+    {
+      "index": 52,
+      "circuit_name": "W_t0_g52",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 52,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 3597,
+        "011": 98,
+        "101": 102,
+        "000": 249,
+        "111": 10,
+        "010": 19,
+        "100": 19,
+        "110": 2
+      },
+      "group_estimate": -0.7919604490744324,
+      "variance_of_group_mean": 9.872276776569627e-05
+    },
+    {
+      "index": 53,
+      "circuit_name": "W_t0_g53",
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "triple_index": 0,
+      "observable": "W",
+      "group_index_within_triple": 53,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 2793,
+        "001": 1079,
+        "100": 74,
+        "010": 83,
+        "111": 4,
+        "011": 22,
+        "101": 29,
+        "110": 12
+      },
+      "group_estimate": -1.1189912949113663,
+      "variance_of_group_mean": 0.0016586573463940647
+    },
+    {
+      "index": 54,
+      "circuit_name": "H_t1_g00",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 0,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 371,
+        "110": 689,
+        "001": 387,
+        "100": 397,
+        "111": 638,
+        "010": 600,
+        "000": 434,
+        "011": 580
+      },
+      "group_estimate": -1.3901671105604902,
+      "variance_of_group_mean": 2.2510685621293973e-08
+    },
+    {
+      "index": 55,
+      "circuit_name": "H_t1_g01",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 1,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 703,
+        "001": 784,
+        "111": 1238,
+        "011": 1097,
+        "010": 102,
+        "110": 101,
+        "100": 28,
+        "000": 43
+      },
+      "group_estimate": -0.0008191665708521612,
+      "variance_of_group_mean": 3.7991354258717367e-10
+    },
+    {
+      "index": 56,
+      "circuit_name": "H_t1_g02",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 2,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "111": 317,
+        "000": 551,
+        "011": 282,
+        "010": 886,
+        "101": 235,
+        "100": 517,
+        "110": 1047,
+        "001": 261
+      },
+      "group_estimate": -0.0014714274717414063,
+      "variance_of_group_mean": 2.4514774185466238e-09
+    },
+    {
+      "index": 57,
+      "circuit_name": "H_t1_g03",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 3,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 522,
+        "010": 536,
+        "110": 566,
+        "001": 541,
+        "011": 497,
+        "100": 448,
+        "000": 512,
+        "111": 474
+      },
+      "group_estimate": -6.365925464950959e-05,
+      "variance_of_group_mean": 2.8578725848961287e-10
+    },
+    {
+      "index": 58,
+      "circuit_name": "H_t1_g04",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 4,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 858,
+        "111": 982,
+        "110": 72,
+        "001": 1023,
+        "100": 76,
+        "011": 943,
+        "000": 66,
+        "010": 76
+      },
+      "group_estimate": 2.841228046719203e-05,
+      "variance_of_group_mean": 6.667118237939697e-11
+    },
+    {
+      "index": 59,
+      "circuit_name": "H_t1_g05",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 5,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 781,
+        "110": 826,
+        "000": 772,
+        "100": 684,
+        "101": 230,
+        "001": 260,
+        "011": 253,
+        "111": 290
+      },
+      "group_estimate": 3.1204324950460977e-06,
+      "variance_of_group_mean": 3.0294939465307825e-10
+    },
+    {
+      "index": 60,
+      "circuit_name": "H_t1_g06",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 6,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 986,
+        "000": 1055,
+        "100": 962,
+        "001": 989,
+        "010": 20,
+        "011": 23,
+        "110": 31,
+        "111": 30
+      },
+      "group_estimate": -0.017985013752982528,
+      "variance_of_group_mean": 2.7540322306727882e-08
+    },
+    {
+      "index": 61,
+      "circuit_name": "H_t1_g07",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 7,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 1886,
+        "001": 1840,
+        "111": 46,
+        "000": 138,
+        "100": 138,
+        "010": 8,
+        "011": 36,
+        "110": 4
+      },
+      "group_estimate": 0.0009812210033766178,
+      "variance_of_group_mean": 1.9346482699985475e-10
+    },
+    {
+      "index": 62,
+      "circuit_name": "H_t1_g08",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 8,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 1406,
+        "000": 1532,
+        "001": 542,
+        "101": 507,
+        "110": 55,
+        "010": 35,
+        "011": 11,
+        "111": 8
+      },
+      "group_estimate": -0.0003828584487134402,
+      "variance_of_group_mean": 1.4994162554318012e-10
+    },
+    {
+      "index": 63,
+      "circuit_name": "H_t1_g09",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 9,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 365,
+        "100": 368,
+        "000": 428,
+        "111": 612,
+        "010": 649,
+        "110": 684,
+        "011": 595,
+        "001": 395
+      },
+      "group_estimate": 2.1852116675703855e-05,
+      "variance_of_group_mean": 2.1178807125159335e-10
+    },
+    {
+      "index": 64,
+      "circuit_name": "H_t1_g10",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 10,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 843,
+        "111": 1122,
+        "010": 128,
+        "101": 686,
+        "011": 1148,
+        "000": 41,
+        "110": 92,
+        "100": 36
+      },
+      "group_estimate": 1.2639254608196521e-05,
+      "variance_of_group_mean": 1.9980818368720761e-10
+    },
+    {
+      "index": 65,
+      "circuit_name": "H_t1_g11",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 11,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 601,
+        "110": 988,
+        "101": 204,
+        "010": 968,
+        "001": 240,
+        "011": 276,
+        "100": 526,
+        "111": 293
+      },
+      "group_estimate": 6.593422768282807e-06,
+      "variance_of_group_mean": 1.7700782622465278e-10
+    },
+    {
+      "index": 66,
+      "circuit_name": "H_t1_g12",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 12,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 519,
+        "011": 523,
+        "100": 450,
+        "010": 574,
+        "110": 537,
+        "001": 559,
+        "111": 449,
+        "000": 485
+      },
+      "group_estimate": 9.987683934590465e-06,
+      "variance_of_group_mean": 1.7672650604750662e-10
+    },
+    {
+      "index": 67,
+      "circuit_name": "H_t1_g13",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 13,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 1055,
+        "101": 939,
+        "001": 916,
+        "111": 918,
+        "110": 62,
+        "010": 77,
+        "100": 70,
+        "000": 59
+      },
+      "group_estimate": -2.5283912865269346e-05,
+      "variance_of_group_mean": 1.457068286290292e-10
+    },
+    {
+      "index": 68,
+      "circuit_name": "H_t1_g14",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 14,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 718,
+        "100": 772,
+        "001": 268,
+        "101": 260,
+        "010": 794,
+        "111": 253,
+        "011": 264,
+        "000": 767
+      },
+      "group_estimate": 5.746952260009441e-06,
+      "variance_of_group_mean": 2.2232814506593234e-11
+    },
+    {
+      "index": 69,
+      "circuit_name": "H_t1_g15",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 15,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 1005,
+        "000": 1099,
+        "001": 974,
+        "010": 18,
+        "101": 909,
+        "011": 24,
+        "110": 37,
+        "111": 30
+      },
+      "group_estimate": 1.7843462328664901e-06,
+      "variance_of_group_mean": 7.513149328725911e-11
+    },
+    {
+      "index": 70,
+      "circuit_name": "H_t1_g16",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 16,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1891,
+        "101": 1835,
+        "100": 114,
+        "000": 134,
+        "011": 45,
+        "110": 8,
+        "111": 66,
+        "010": 3
+      },
+      "group_estimate": 1.0854324461230906e-05,
+      "variance_of_group_mean": 1.78482195814582e-10
+    },
+    {
+      "index": 71,
+      "circuit_name": "H_t1_g17",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 17,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 535,
+        "000": 1570,
+        "100": 1394,
+        "010": 27,
+        "101": 483,
+        "110": 68,
+        "011": 9,
+        "111": 10
+      },
+      "group_estimate": -8.974620263028926e-06,
+      "variance_of_group_mean": 1.2249367640826672e-11
+    },
+    {
+      "index": 72,
+      "circuit_name": "H_t1_g18",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 18,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 1291,
+        "001": 805,
+        "000": 770,
+        "011": 1186,
+        "110": 19,
+        "100": 5,
+        "101": 6,
+        "111": 14
+      },
+      "group_estimate": -0.024614976866132985,
+      "variance_of_group_mean": 3.881642000414528e-08
+    },
+    {
+      "index": 73,
+      "circuit_name": "H_t1_g19",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 19,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1470,
+        "010": 192,
+        "011": 2321,
+        "000": 63,
+        "110": 4,
+        "101": 13,
+        "111": 30,
+        "100": 3
+      },
+      "group_estimate": 0.00036419225832823744,
+      "variance_of_group_mean": 2.2759532801893093e-11
+    },
+    {
+      "index": 74,
+      "circuit_name": "H_t1_g20",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 20,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 593,
+        "010": 1918,
+        "000": 1084,
+        "001": 445,
+        "111": 12,
+        "100": 19,
+        "110": 23,
+        "101": 2
+      },
+      "group_estimate": 0.0018487034391798096,
+      "variance_of_group_mean": 2.9568312936162605e-09
+    },
+    {
+      "index": 75,
+      "circuit_name": "H_t1_g21",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 21,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1023,
+        "000": 980,
+        "011": 928,
+        "010": 1112,
+        "111": 17,
+        "100": 11,
+        "110": 15,
+        "101": 10
+      },
+      "group_estimate": 1.1498523300952693e-05,
+      "variance_of_group_mean": 4.581254918560016e-11
+    },
+    {
+      "index": 76,
+      "circuit_name": "H_t1_g22",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 22,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 1922,
+        "001": 1845,
+        "101": 17,
+        "000": 127,
+        "010": 156,
+        "111": 23,
+        "110": 4,
+        "100": 2
+      },
+      "group_estimate": 1.3360575879988648e-05,
+      "variance_of_group_mean": 3.7771207990183376e-10
+    },
+    {
+      "index": 77,
+      "circuit_name": "H_t1_g23",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 23,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 1468,
+        "000": 1504,
+        "011": 525,
+        "001": 550,
+        "100": 12,
+        "101": 10,
+        "110": 13,
+        "111": 14
+      },
+      "group_estimate": -5.668203213661337e-07,
+      "variance_of_group_mean": 2.0567200560082392e-11
+    },
+    {
+      "index": 78,
+      "circuit_name": "H_t1_g24",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 24,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 2044,
+        "001": 1901,
+        "101": 16,
+        "011": 50,
+        "110": 7,
+        "010": 40,
+        "100": 28,
+        "111": 10
+      },
+      "group_estimate": 0.016702227197531557,
+      "variance_of_group_mean": 3.934378797323722e-08
+    },
+    {
+      "index": 79,
+      "circuit_name": "H_t1_g25",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 25,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 3694,
+        "101": 22,
+        "000": 257,
+        "010": 12,
+        "011": 87,
+        "110": 1,
+        "111": 17,
+        "100": 6
+      },
+      "group_estimate": -0.0005619391374299702,
+      "variance_of_group_mean": 3.734630809137852e-11
+    },
+    {
+      "index": 80,
+      "circuit_name": "H_t1_g26",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "H",
+      "group_index_within_triple": 26,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 2952,
+        "001": 1010,
+        "010": 80,
+        "100": 21,
+        "011": 14,
+        "101": 9,
+        "110": 9,
+        "111": 1
+      },
+      "group_estimate": 0.00025807248716905014,
+      "variance_of_group_mean": 6.160009999610702e-11
+    },
+    {
+      "index": 81,
+      "circuit_name": "W_t1_g27",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 27,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 364,
+        "100": 395,
+        "111": 658,
+        "000": 430,
+        "011": 582,
+        "110": 676,
+        "010": 571,
+        "001": 420
+      },
+      "group_estimate": 216.7311325670728,
+      "variance_of_group_mean": 1.1999764298513804
+    },
+    {
+      "index": 82,
+      "circuit_name": "W_t1_g28",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 28,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 1096,
+        "101": 717,
+        "001": 826,
+        "111": 1192,
+        "110": 107,
+        "010": 94,
+        "000": 38,
+        "100": 26
+      },
+      "group_estimate": -41.34288976554488,
+      "variance_of_group_mean": 0.25394500004566545
+    },
+    {
+      "index": 83,
+      "circuit_name": "W_t1_g29",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 29,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 621,
+        "110": 1028,
+        "010": 896,
+        "111": 299,
+        "100": 514,
+        "001": 242,
+        "011": 269,
+        "101": 227
+      },
+      "group_estimate": -15.586041542189804,
+      "variance_of_group_mean": 0.45312156346690674
+    },
+    {
+      "index": 84,
+      "circuit_name": "W_t1_g30",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 30,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 493,
+        "011": 446,
+        "110": 589,
+        "000": 497,
+        "100": 471,
+        "111": 513,
+        "001": 537,
+        "010": 550
+      },
+      "group_estimate": 4.302124838033639,
+      "variance_of_group_mean": 0.8889352281835979
+    },
+    {
+      "index": 85,
+      "circuit_name": "W_t1_g31",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 31,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 970,
+        "101": 875,
+        "111": 1052,
+        "011": 917,
+        "110": 75,
+        "010": 69,
+        "000": 79,
+        "100": 59
+      },
+      "group_estimate": -0.34733170902300026,
+      "variance_of_group_mean": 0.2554573110945132
+    },
+    {
+      "index": 86,
+      "circuit_name": "W_t1_g32",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 32,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 742,
+        "101": 288,
+        "100": 722,
+        "000": 770,
+        "110": 789,
+        "111": 285,
+        "001": 248,
+        "011": 252
+      },
+      "group_estimate": 0.04481857975620063,
+      "variance_of_group_mean": 0.14177814957046678
+    },
+    {
+      "index": 87,
+      "circuit_name": "W_t1_g33",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 33,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 996,
+        "000": 1034,
+        "001": 961,
+        "101": 1011,
+        "010": 18,
+        "110": 29,
+        "011": 19,
+        "111": 28
+      },
+      "group_estimate": 6.282196443240184,
+      "variance_of_group_mean": 1.813720344790149
+    },
+    {
+      "index": 88,
+      "circuit_name": "W_t1_g34",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 34,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1912,
+        "101": 1844,
+        "100": 127,
+        "111": 47,
+        "000": 114,
+        "011": 34,
+        "010": 10,
+        "110": 8
+      },
+      "group_estimate": -10.954868860026764,
+      "variance_of_group_mean": 0.013987804444926545
+    },
+    {
+      "index": 89,
+      "circuit_name": "W_t1_g35",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 35,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 49,
+        "100": 1423,
+        "000": 1519,
+        "001": 531,
+        "010": 33,
+        "101": 525,
+        "011": 12,
+        "111": 4
+      },
+      "group_estimate": 8.25942743898157,
+      "variance_of_group_mean": 0.18317830700179544
+    },
+    {
+      "index": 90,
+      "circuit_name": "W_t1_g36",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 36,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 420,
+        "110": 641,
+        "000": 421,
+        "100": 375,
+        "101": 343,
+        "010": 668,
+        "111": 596,
+        "011": 632
+      },
+      "group_estimate": 1.0876931432811254,
+      "variance_of_group_mean": 0.582993619919042
+    },
+    {
+      "index": 91,
+      "circuit_name": "W_t1_g37",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 37,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 789,
+        "101": 695,
+        "011": 1166,
+        "111": 1188,
+        "000": 42,
+        "110": 95,
+        "100": 35,
+        "010": 86
+      },
+      "group_estimate": 0.5464110404467809,
+      "variance_of_group_mean": 0.08464863133715535
+    },
+    {
+      "index": 92,
+      "circuit_name": "W_t1_g38",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 38,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "110": 948,
+        "000": 580,
+        "001": 241,
+        "111": 286,
+        "010": 982,
+        "100": 554,
+        "011": 300,
+        "101": 205
+      },
+      "group_estimate": 0.09853677556721763,
+      "variance_of_group_mean": 0.05016697967147001
+    },
+    {
+      "index": 93,
+      "circuit_name": "W_t1_g39",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 39,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 530,
+        "111": 482,
+        "011": 493,
+        "101": 559,
+        "100": 465,
+        "110": 552,
+        "001": 508,
+        "000": 507
+      },
+      "group_estimate": 0.09688968875139192,
+      "variance_of_group_mean": 0.21359720596067452
+    },
+    {
+      "index": 94,
+      "circuit_name": "W_t1_g40",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 40,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "101": 965,
+        "111": 937,
+        "011": 1032,
+        "001": 880,
+        "010": 80,
+        "000": 73,
+        "110": 69,
+        "100": 60
+      },
+      "group_estimate": -0.11396050000596003,
+      "variance_of_group_mean": 0.0016031479779989968
+    },
+    {
+      "index": 95,
+      "circuit_name": "W_t1_g41",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 41,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "100": 702,
+        "010": 860,
+        "110": 726,
+        "101": 265,
+        "000": 763,
+        "001": 248,
+        "011": 291,
+        "111": 241
+      },
+      "group_estimate": 0.03344802364969257,
+      "variance_of_group_mean": 0.12732200833030508
+    },
+    {
+      "index": 96,
+      "circuit_name": "W_t1_g42",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 42,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 982,
+        "101": 860,
+        "000": 1098,
+        "100": 1036,
+        "011": 29,
+        "111": 34,
+        "110": 40,
+        "010": 17
+      },
+      "group_estimate": 0.8075851079147418,
+      "variance_of_group_mean": 0.0939629998485568
+    },
+    {
+      "index": 97,
+      "circuit_name": "W_t1_g43",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 43,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1891,
+        "101": 1840,
+        "111": 62,
+        "000": 137,
+        "011": 34,
+        "100": 118,
+        "110": 6,
+        "010": 8
+      },
+      "group_estimate": 0.05903956989185841,
+      "variance_of_group_mean": 0.0037142357317719137
+    },
+    {
+      "index": 98,
+      "circuit_name": "W_t1_g44",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 44,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 1548,
+        "001": 549,
+        "100": 1417,
+        "101": 474,
+        "010": 39,
+        "110": 53,
+        "011": 6,
+        "111": 10
+      },
+      "group_estimate": 0.0826179647489341,
+      "variance_of_group_mean": 0.006418216004359758
+    },
+    {
+      "index": 99,
+      "circuit_name": "W_t1_g45",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 45,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 1224,
+        "101": 6,
+        "010": 1258,
+        "000": 806,
+        "001": 757,
+        "111": 16,
+        "100": 7,
+        "110": 22
+      },
+      "group_estimate": 48.316418931187066,
+      "variance_of_group_mean": 2.7698264477552947
+    },
+    {
+      "index": 100,
+      "circuit_name": "W_t1_g46",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 46,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1465,
+        "011": 2316,
+        "010": 187,
+        "000": 69,
+        "101": 16,
+        "111": 34,
+        "110": 7,
+        "100": 2
+      },
+      "group_estimate": -40.44114414077686,
+      "variance_of_group_mean": 0.8524731629289671
+    },
+    {
+      "index": 101,
+      "circuit_name": "W_t1_g47",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 47,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 458,
+        "000": 1068,
+        "010": 1974,
+        "011": 544,
+        "110": 23,
+        "100": 15,
+        "111": 10,
+        "101": 4
+      },
+      "group_estimate": -12.584172614788045,
+      "variance_of_group_mean": 0.3335019759594915
+    },
+    {
+      "index": 102,
+      "circuit_name": "W_t1_g48",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 48,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "011": 936,
+        "000": 956,
+        "001": 1059,
+        "010": 1106,
+        "100": 7,
+        "111": 19,
+        "101": 6,
+        "110": 7
+      },
+      "group_estimate": 1.8802085079638027,
+      "variance_of_group_mean": 0.20575830200356693
+    },
+    {
+      "index": 103,
+      "circuit_name": "W_t1_g49",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 49,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1792,
+        "011": 1948,
+        "010": 145,
+        "000": 157,
+        "111": 30,
+        "100": 7,
+        "101": 14,
+        "110": 3
+      },
+      "group_estimate": -0.6502541193161778,
+      "variance_of_group_mean": 0.07898441512076737
+    },
+    {
+      "index": 104,
+      "circuit_name": "W_t1_g50",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 50,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "010": 1563,
+        "011": 541,
+        "000": 1438,
+        "001": 511,
+        "100": 14,
+        "110": 17,
+        "101": 6,
+        "111": 6
+      },
+      "group_estimate": 0.4364959977281675,
+      "variance_of_group_mean": 0.09217894069433766
+    },
+    {
+      "index": 105,
+      "circuit_name": "W_t1_g51",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 51,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "001": 1947,
+        "000": 2030,
+        "100": 14,
+        "011": 41,
+        "110": 7,
+        "010": 41,
+        "101": 11,
+        "111": 5
+      },
+      "group_estimate": -61.33093003978124,
+      "variance_of_group_mean": 0.2944854115243857
+    },
+    {
+      "index": 106,
+      "circuit_name": "W_t1_g52",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 52,
+      "shots": 4096,
+      "distinct_bitstrings": 7,
+      "raw_counts": {
+        "001": 3728,
+        "000": 246,
+        "101": 25,
+        "011": 67,
+        "010": 19,
+        "111": 10,
+        "100": 1
+      },
+      "group_estimate": -0.8479977256839571,
+      "variance_of_group_mean": 7.628106083847113e-05
+    },
+    {
+      "index": 107,
+      "circuit_name": "W_t1_g53",
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "triple_index": 1,
+      "observable": "W",
+      "group_index_within_triple": 53,
+      "shots": 4096,
+      "distinct_bitstrings": 8,
+      "raw_counts": {
+        "000": 2927,
+        "001": 1036,
+        "010": 81,
+        "111": 4,
+        "011": 12,
+        "110": 9,
+        "101": 9,
+        "100": 18
+      },
+      "group_estimate": -1.2588652067752868,
+      "variance_of_group_mean": 0.001577436323013852
+    }
+  ],
+  "note": "Uncertainties are within-job shot-noise estimates only; not full hardware/model systematic uncertainties.",
+  "comparison_to_saved_summary": [
+    {
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "saved_summary_match": true,
+      "differences_new_minus_saved": {
+        "H_Ha": 0.0,
+        "H_SE_Ha": 0.0,
+        "W": 0.0,
+        "W_SE": 0.0,
+        "energy_eV": 0.0,
+        "energy_SE_eV": 0.0,
+        "width_eV": 0.0,
+        "width_SE_eV": 0.0
+      }
+    },
+    {
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "saved_summary_match": true,
+      "differences_new_minus_saved": {
+        "H_Ha": 0.0,
+        "H_SE_Ha": 0.0,
+        "W": 0.0,
+        "W_SE": 0.0,
+        "energy_eV": 0.0,
+        "energy_SE_eV": 0.0,
+        "width_eV": 0.0,
+        "width_SE_eV": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "audit": "qDRIVE H/W Pauli mapping and source-matrix audit",
+  "status": "PASS",
+  "mapping_file": "/home/renjith/Documents/quantum_computing/project1/qDRIVE/h2cap_ibm_hardware_20261013_070039_groups.json",
+  "mapping_records": 108,
+  "physical_triples": {
+    "0": [
+      43,
+      44,
+      45
+    ],
+    "1": [
+      20,
+      21,
+      36
+    ]
+  },
+  "reconstructed_matrices": {
+    "H_triple_0": {
+      "shape": [
+        8,
+        8
+      ],
+      "hermiticity_max_abs": 0.0,
+      "max_abs_element": 1.415823375190297,
+      "trace_real": -11.116712079286556,
+      "trace_imag": 0.0,
+      "eigenvalues_real_sorted": [
+        -1.4206347500834582,
+        -1.4179836310114207,
+        -1.4155580844960365,
+        -1.4117146258148154,
+        -1.4046954636726008,
+        -1.3924841754793467,
+        -1.3683631567336132,
+        -1.285278191995263
+      ],
+      "group_count": 27,
+      "pauli_term_count": 64
+    },
+    "W_triple_0": {
+      "shape": [
+        8,
+        8
+      ],
+      "hermiticity_max_abs": 0.0,
+      "max_abs_element": 352.6350457073562,
+      "trace_real": 1672.0388935079204,
+      "trace_imag": 0.0,
+      "eigenvalues_real_sorted": [
+        0.11253885457025868,
+        5.015837291373096,
+        67.77052184509206,
+        81.71945213451136,
+        114.23841823141379,
+        264.1707937443508,
+        472.3564790134462,
+        666.6548523931626
+      ],
+      "group_count": 27,
+      "pauli_term_count": 64
+    },
+    "H_triple_1": {
+      "shape": [
+        8,
+        8
+      ],
+      "hermiticity_max_abs": 0.0,
+      "max_abs_element": 1.415823375190297,
+      "trace_real": -11.116712079286556,
+      "trace_imag": 0.0,
+      "eigenvalues_real_sorted": [
+        -1.4206347500834582,
+        -1.4179836310114207,
+        -1.4155580844960365,
+        -1.4117146258148154,
+        -1.4046954636726008,
+        -1.3924841754793467,
+        -1.3683631567336132,
+        -1.285278191995263
+      ],
+      "group_count": 27,
+      "pauli_term_count": 64
+    },
+    "W_triple_1": {
+      "shape": [
+        8,
+        8
+      ],
+      "hermiticity_max_abs": 0.0,
+      "max_abs_element": 352.6350457073562,
+      "trace_real": 1672.0388935079204,
+      "trace_imag": 0.0,
+      "eigenvalues_real_sorted": [
+        0.11253885457025868,
+        5.015837291373096,
+        67.77052184509206,
+        81.71945213451136,
+        114.23841823141379,
+        264.1707937443508,
+        472.3564790134462,
+        666.6548523931626
+      ],
+      "group_count": 27,
+      "pauli_term_count": 64
+    }
+  },
+  "cross_triple_comparisons": {
+    "H_triple_0_vs_1": {
+      "shape_match": true,
+      "max_abs_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    "W_triple_0_vs_1": {
+      "shape_match": true,
+      "max_abs_difference": 0.0,
+      "frobenius_difference": 0.0
+    }
+  },
+  "source_matrix_comparisons": {
+    "H": {
+      "source_path": "/home/renjith/Documents/quantum_computing/H2_minus_qDRIVE/01_classical_CAP/stage1_R2.8/stage8K10_qdrive_8dim_cap_model/stage8K10_H8.npy",
+      "source_metrics": {
+        "shape": [
+          8,
+          8
+        ],
+        "hermiticity_max_abs": 1.1913687809721185e-15,
+        "max_abs_element": 1.4158233751902967,
+        "trace_real": -11.116712079286556,
+        "trace_imag": -4.0345137483743907e-16,
+        "eigenvalues_real_sorted": [
+          -1.420634750083458,
+          -1.4179836310114198,
+          -1.4155580844960363,
+          -1.411714625814816,
+          -1.4046954636726006,
+          -1.392484175479346,
+          -1.3683631567336145,
+          -1.2852781919952643
+        ]
+      },
+      "source_hermiticity_max_abs": 1.1913687809721185e-15,
+      "reconstructed_by_triple": {
+        "0": {
+          "shape_match": true,
+          "max_abs_difference": 6.794851523889055e-16,
+          "frobenius_difference": 1.7488049194562826e-15
+        },
+        "1": {
+          "shape_match": true,
+          "max_abs_difference": 6.794851523889055e-16,
+          "frobenius_difference": 1.7488049194562826e-15
+        }
+      }
+    },
+    "W": {
+      "source_path": "/home/renjith/Documents/quantum_computing/H2_minus_qDRIVE/01_classical_CAP/stage1_R2.8/stage8K10_qdrive_8dim_cap_model/stage8K10_W8.npy",
+      "source_metrics": {
+        "shape": [
+          8,
+          8
+        ],
+        "hermiticity_max_abs": 1.8106176280507924e-13,
+        "max_abs_element": 352.63504570735626,
+        "trace_real": 1672.0388935079206,
+        "trace_imag": -1.0788430966721801e-13,
+        "eigenvalues_real_sorted": [
+          0.1125388545703244,
+          5.0158372913730975,
+          67.770521845092,
+          81.71945213451139,
+          114.23841823141372,
+          264.17079374435093,
+          472.3564790134463,
+          666.6548523931627
+        ]
+      },
+      "source_hermiticity_max_abs": 1.8106176280507924e-13,
+      "reconstructed_by_triple": {
+        "0": {
+          "shape_match": true,
+          "max_abs_difference": 9.488748102077013e-14,
+          "frobenius_difference": 3.3597876697729514e-13
+        },
+        "1": {
+          "shape_match": true,
+          "max_abs_difference": 9.488748102077013e-14,
+          "frobenius_difference": 3.3597876697729514e-13
+        }
+      }
+    }
+  },
+  "definite_issues": [],
+  "inconclusive_checks": [],
+  "tolerance": 1e-09,
+  "scope_note": "PASS verifies that archived Pauli groups reconstruct Hermitian 8x8 matrices and match the saved source matrices within tolerance. It does not validate derivation of the source matrices from the molecular CAP model."
+}

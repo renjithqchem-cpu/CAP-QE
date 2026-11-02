@@ -1,0 +1,69 @@
+{
+  "job_id": "db6ojgamb58s738c4t8g",
+  "circuits_archive": "h2cap_ibm_hardware_20261013_070039_circuits.qpy",
+  "group_mapping": "h2cap_ibm_hardware_20261013_070039_groups.json",
+  "backend": "ibm_kingston",
+  "shots_per_circuit": 4096,
+  "circuits": 108,
+  "circuits_per_triple": 54,
+  "total_shots": 442368,
+  "triples": [
+    [
+      43,
+      44,
+      45
+    ],
+    [
+      20,
+      21,
+      36
+    ]
+  ],
+  "optimizer_residual": 3.067364916269692e-14,
+  "max_transpiled_depth": 26,
+  "seed_transpiler": 121012,
+  "optimization_level": 1,
+  "status": "DONE",
+  "results_by_triple": [
+    {
+      "triple": [
+        43,
+        44,
+        45
+      ],
+      "H_Ha": -1.4159452161188444,
+      "H_SE_Ha": 0.0003887084273728094,
+      "W": 91.31345446537395,
+      "W_SE": 3.317387255608228,
+      "energy_eV": 0.2077569769467027,
+      "energy_SE_eV": 0.01057729515431209,
+      "width_eV": 0.06482596569397087,
+      "width_SE_eV": 0.0023551056488310073,
+      "reference_energy_eV": 0.21239112537024876,
+      "reference_width_eV": 0.07516884295821497,
+      "energy_delta_from_reference_eV": -0.004634148423546064,
+      "width_delta_from_reference_eV": -0.0103428772642441
+    },
+    {
+      "triple": [
+        20,
+        21,
+        36
+      ],
+      "H_Ha": -1.4158207111177723,
+      "H_SE_Ha": 0.0003698150666290459,
+      "W": 103.60658839430322,
+      "W_SE": 3.3162312278551087,
+      "energy_eV": 0.2111449306204323,
+      "energy_SE_eV": 0.010063180617628755,
+      "width_eV": 0.07355320400746987,
+      "width_SE_eV": 0.0023542849525173726,
+      "reference_energy_eV": 0.21239112537024876,
+      "reference_width_eV": 0.07516884295821497,
+      "energy_delta_from_reference_eV": -0.001246194749816465,
+      "width_delta_from_reference_eV": -0.0016156389507450963
+    }
+  ],
+  "mitigation": "none; raw hardware estimates",
+  "uncertainty_note": "Within-job shot-noise estimates; do not include between-job or device systematic uncertainty."
+}
